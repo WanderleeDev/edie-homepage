@@ -6,7 +6,8 @@
   "scripts": {
     "pre-build": "sass ./src/scss/style.scss ./src/css/style.css",
     "build": "pnpm run pre-build && postcss ./src/css/style.css -o ./public/main.css",
-    "pre-sass": "sass ./src/scss/style.scss ./src/css/style.css -w"
+    "pre-sass": "sass ./src/scss/style.scss ./src/css/style.css -w",
+    "webpack": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,8 @@
     "cssnano": "^6.0.1",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
   }
 }
