@@ -1,3 +1,3 @@
-import saludo from "../src/js/fun.js";
+import saludo from "./assets/fun.js";
 
 saludo();
