@@ -1,4 +1,4 @@
 import saludo from "./fun.js";
-const nombre = Max;
+const nombre = 'Max';
 
 saludo(nombre);
