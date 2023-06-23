@@ -2,13 +2,6 @@
 @use '../scss/base/typography.scss' as *;
 @use '../scss/utils/shared.scss' as *;
 
-h1{
-  color: blueviolet;
-  font-size: 5rem;
-  font-style: italic;
-  text-decoration: underline;
-}
-p{
-  color: aqua;
-  text-decoration: underline;
+body{
+  background-color: var(--whitePlus);
 }
