@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pre-build": "sass ./src/scss/style.scss ./src/css/style.css",
-    "build": "pnpm run pre-build && postcss ./src/css/style.css -o ./public/main.css"
+    "build": "pnpm run pre-build && postcss ./src/css/style.css -o ./public/main.css",
+    "pre-sass": "sass ./src/scss/style.scss ./src/css/style.css -w"
   },
   "keywords": [],
   "author": "",

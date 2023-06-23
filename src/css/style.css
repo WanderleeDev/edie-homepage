@@ -167,5 +167,16 @@ main{
   @include flex(flex, row, wrap, space-around, center, 1rem);
 }
 */
+h1 {
+  color: blueviolet;
+  font-size: 5rem;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  color: aqua;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
