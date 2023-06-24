@@ -1,3 +1,6 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.8.1_webpack@5.88.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.3.2_sass@1.63.6_webpack@5.88.0/node_modules/sass-loader/dist/cjs.js!./node_modules/.pnpm/postcss-loader@7.3.3_postcss@8.4.24_webpack@5.88.0/node_modules/postcss-loader/dist/cjs.js!./src/scss/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @charset "UTF-8";
 /* Definimos las Custom properties */
 :root {
@@ -143,14 +146,14 @@ body {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat/Montserrat-normal.woff2") format("woff2-variations");
+  src: url(../../d851de14bb96a4b17519.woff2) format("woff2-variations");
   font-display: swap;
   font-weight: 100 1000;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat/Montserrat-Italic.woff2") format("woff2-variations");
+  src: url(../../844368ed572b4d8dfcd8.woff2) format("woff2-variations");
   font-display: swap;
   font-weight: 100 1000;
   font-style: italic;
@@ -170,5 +173,3 @@ main{
 body {
   background-color: var(--whitePlus);
 }
-
-/*# sourceMappingURL=style.css.map */

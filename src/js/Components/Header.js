@@ -1,3 +1,7 @@
+import logo from '/src/img/booking.png'
+import closeSvg from '/src/img/close.svg'
+import menuSvg from '/src/img/menu.svg'
+
 const Header = () => { 
 
   const data = [
@@ -10,7 +14,7 @@ const Header = () => {
 
   const tempContainer = `
     <header class="header">
-      <img src="../../../public/assets/svg/edie.svg" alt="logo" class="header-logo">
+      <img src=${logo} alt="logo" class="header-logo">
       <nav class="header-nav">
         <ul class="navList">
           ${
@@ -26,10 +30,10 @@ const Header = () => {
       </nav>
       <div class="header-containerBtn">
         <button class="btn" aria-label="Cerrar barra de navegación">
-          <img src="../../../public/assets/svg/close.svg" alt="logo cerrar menu">
+          <img src=${closeSvg} alt="logo cerrar menu">
         </button>
         <button class="btn" aria-label="Abrir barra de navegación">
-          <img src="../../../public/assets/svg/menu.svg" alt="logo abrir menu">
+          <img src=${menuSvg} alt="logo abrir menu">
         </button>
       </div>      
     </header>  
