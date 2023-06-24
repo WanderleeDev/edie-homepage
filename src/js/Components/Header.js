@@ -1,4 +1,4 @@
-import logo from '/src/img/booking.png'
+import logo from '/src/img/edie.svg'
 import closeSvg from '/src/img/close.svg'
 import menuSvg from '/src/img/menu.svg'
 
