@@ -44,7 +44,7 @@ const rulesFonts = {
   ]
 };
 
-//configuración de loader para imagenes
+//configuración de loader para imágenes
 const ruleAssets = {
     type: "asset",
     test: /\.(png|jpg|gif|svg)$/,
