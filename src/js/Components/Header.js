@@ -29,11 +29,11 @@ const Header = () => {
         </ul>
       </nav>
       <div class="header-containerBtn">
-        <button class="btn" aria-label="Cerrar barra de navegación">
-          <img src=${closeSvg} alt="logo cerrar menu">
+        <button class="btn btn-close" aria-label="Cerrar barra de navegación">
+        𝘅
         </button>
-        <button class="btn" aria-label="Abrir barra de navegación">
-          <img src=${menuSvg} alt="logo abrir menu">
+        <button class="btn btn-open" aria-label="Abrir barra de navegación">
+        ☲
         </button>
       </div>      
     </header>  
