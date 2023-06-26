@@ -1,0 +1,57 @@
+.card{
+  width: 21.3125rem;
+  height: 26.375rem;
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  &:hover{
+    box-shadow: 0px 5px 10px 0px rgba(51, 51, 51, 0.15);
+  }
+  &:nth-of-type(1) .card-imgContainer{
+    background-color: #2D9CDB;
+  }
+  &:nth-of-type(2) .card-imgContainer{
+    background-color: #27AE60;
+  }
+  &:nth-of-type(3) .card-imgContainer{
+    background-color: #EB5757;
+  }
+
+  &-imgContainer{
+    width: 4.1875rem;
+    height: 4.1875rem;
+    display: grid;
+    place-content: center;
+    border-radius: 1rem;
+  }
+  
+  &-img{
+    width: 2rem;
+  }
+  
+  &-title{
+    color:#333;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  &-description{
+    font-size: 1rem;
+    color: #4F4F4F;
+  }
+  
+  &-btn{
+    width: 7.25rem;
+    height: 2.625rem;
+    color: #828282;
+    font-weight: 500;
+    border-radius: .75rem;
+    background-color: #E0E0E0;
+    cursor: pointer;
+      &:hover{
+      background-color: #2D9CDB;
+      color: #fff;
+      }
+  }
+}

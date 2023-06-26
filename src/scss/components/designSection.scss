@@ -1,0 +1,36 @@
+.designSection{
+  display: grid;
+  place-content: center;
+  gap: 3rem;
+  
+  &-title{
+    width: 16.6875rem;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-inline: auto;
+  }
+  
+  &-container{
+    display: grid;
+    gap: 2.5rem;
+  }
+
+  &-seeMore{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #2D9CDB;
+    cursor:pointer;
+  }
+
+  &-link{
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  &-icon{
+    transform: rotate(180deg);
+    font-weight: 900;
+  }
+}

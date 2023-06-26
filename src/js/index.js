@@ -1,27 +1,11 @@
 import addBlock from "./utils/addBlock.js";
+import appearNavBar from "./utils/appearNavBar.js";
 import Header from "./Components/Header.js";
+import Main from "./Components/Main.js";
 import '../scss/style.scss';
 
 
 
-addBlock(Header(),'#app', 'afterend');
-
-
-function appearNavBar() {
-  const navbar = document.querySelector('.header');
-  const btnOpen = document.querySelector('.btn-open');
-  const btnClose = document.querySelector('.btn-close');
-  const navList = document.querySelector('.navList');
-  console.log(navList);
-
-  navbar.addEventListener('click', (event) => {
-    if (event.target.classList.contains('btn')) {
-      (btnClose.style.transform === 'scale(1)') ? btnClose.style.transform = 'scale(0)': btnClose.style.transform = 'scale(1)';
-
-      (btnOpen.style.transform === 'scale(0)') ? btnOpen.style.transform = 'scale(1)': btnOpen.style.transform = 'scale(0)';
-      navList.classList.toggle('appearNav')
-    }
-  })
-}
-
+addBlock(Header(),'body', 'afterbegin');
+addBlock(Main(),'#app', 'beforeend');
 appearNavBar();

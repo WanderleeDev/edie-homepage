@@ -1,0 +1,18 @@
+.content{
+  display: grid;
+  gap: 2rem;
+
+  &-title{
+    width: 14.1875rem;
+    height: 3.625rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  &-text{
+    height: 4.625rem;
+    width: 17.1875rem;
+    color: #4F4F4F;
+    font-size: 0.75rem;
+  }
+}

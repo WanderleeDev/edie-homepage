@@ -1,6 +1,4 @@
-import logo from '/src/img/edie.svg'
-import closeSvg from '/src/img/close.svg'
-import menuSvg from '/src/img/menu.svg'
+import logo from '/src/img/edie.svg';
 
 const Header = () => { 
 

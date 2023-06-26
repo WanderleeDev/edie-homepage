@@ -3,9 +3,11 @@
 @use './utils/shared.scss' as *;
 
 @use './components/header.scss' as *;
+@use './components/main.scss' as *;
 
 
 body{
   padding: .8rem;
-  overflow: hidden;
+  overflow-x: hidden;
+  font-family: Poppins;
 }
