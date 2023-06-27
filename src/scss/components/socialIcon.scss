@@ -1,0 +1,13 @@
+.socialMedia-link{
+  width: 1.6rem;
+  height: 1.6rem;
+  &:nth-child(3){
+    margin-top: 0.09rem;
+  }
+}
+
+.socialMedia-icon{
+  aspect-ratio: 1/1;
+  width: 1.5rem;
+  height: 1.5rem;
+}

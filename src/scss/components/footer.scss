@@ -1,0 +1,52 @@
+.footer{
+  display: grid;
+  gap: 3.5rem;
+  background: #100E1D;
+  padding: 3rem 2rem 2.5rem 2rem;
+  @media screen and (min-width:50rem) {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: self-start;
+    justify-items: center;
+    margin-top: 10rem;
+  }
+
+  .list{
+    display: grid;
+    gap: 1rem;
+    font-size: 1.125rem;
+  }
+
+  &-info{
+    @media screen and (min-width:50rem) {
+      grid-column: 1/ end;
+    }
+  }
+
+  &-copy{
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 0.875rem;
+
+  }
+  &-link{
+    font-weight: 900;
+  }
+}
+.socialMedia{
+  display: grid;
+  width: 5.5rem;
+  gap: .5rem;
+
+  &-logo{
+    width: 6rem;
+    object-fit: contain;
+    color: #F2F2F2;
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
+
+  &-iconContainer{
+    display: flex;
+    gap: .5rem;
+  }
+}

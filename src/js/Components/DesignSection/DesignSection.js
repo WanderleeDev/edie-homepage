@@ -47,7 +47,7 @@ const DesingSection = () => {
       }
     </div>
     <div class="designSection-seeMore">
-      <a class="designSection-link" href="#">see more</a>
+      <a rel=”noreferrer noopener” class="designSection-link" href="#">see more</a>
       <span class="designSection-icon">🠐</span>
     </div>
   </section>

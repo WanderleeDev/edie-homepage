@@ -5,9 +5,6 @@
 @use './components/header.scss' as *;
 @use './components/main.scss' as *;
 
-
 body{
-  padding: .8rem;
-  overflow-x: hidden;
   font-family: Poppins;
 }
