@@ -60,7 +60,7 @@ const rules = [rulesJs, rulesStyles, rulesFonts, ruleAssets];
 module.exports = {
   //development: para desarrollo de la aplicación optimiza el rendimiento en tiempo de compilación
   // production: para producción, se enfoca en reducir tamaño, minificar y optimizar el rendimiento, también se omiten características de desarrollo
-  mode: 'development',
+  mode: 'production',
 
   //Ruta del archivo js principal
   entry: './src/js/index.js',
