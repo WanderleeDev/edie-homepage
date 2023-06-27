@@ -13,6 +13,7 @@
   @media screen and (min-width:50rem) {
     grid-template-columns: repeat(2,auto);
     padding: 1rem;
+    position: initial;
   }
 
   &-logo{

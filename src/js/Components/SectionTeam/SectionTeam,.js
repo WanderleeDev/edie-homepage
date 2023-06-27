@@ -18,7 +18,7 @@ const images = [
 
 const SectionTeam = () => {
   const tempContainer = `
-  <section class="team">
+  <section id="clients" class="team">
     <div class="team-data">
       <span class="team-span">Meet the team</span>
       <h2 class="team-title">

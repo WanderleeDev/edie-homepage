@@ -6,7 +6,7 @@ import InputMail from '../InputMail/InputMail';
 
 const FirstSection = () => {
   const tempContainer = `
-    <section class="firstSection">
+    <section id="home" class="firstSection">
       ${MainTitle}
       ${ImgBanner}
       ${FirstContentSection}

@@ -1,9 +1,8 @@
 .cardDesign{
   display: grid;
-  width: 21.3125rem;
   gap: 1rem;
   @media screen and (min-width: 40rem) {
-    max-width: 33.4rem;
+    max-width: 22rem;
     &:nth-child(1){
       grid-column: 1/2;
       grid-row: 2/4;
@@ -22,13 +21,14 @@
     }
   }
 
-  @media screen and (min-width: 68.5rem) {
-    width: 33.4rem;
+  @media screen and (min-width:68rem) {
+      max-width: 30rem;
     }
-
+  
   &-img{
     aspect-ratio: 1/1;
     border-radius: 1.5rem;
+
   }
   
   &-title{

@@ -1,13 +1,27 @@
 import logo from '/src/img/edie.svg';
 
 const Header = () => { 
-
   const data = [
-    {li: 'Home'},
-    {li: 'Services'},
-    {li: 'Our Works'},
-    {li: 'Clients'},
-    {li: 'Contact'}
+    {
+      li: 'Home',
+      link: "home"
+    },
+    {
+      li: 'Services',
+      link: "services"
+    },
+    {
+      li: 'Our Works',
+      link: 'ourWorks'
+    },
+    {
+      li: 'Clients',
+      link: "clients"
+    },
+    {
+      li:  'Contact',
+      link: "contact"
+    }
   ];
 
   const tempContainer = `
@@ -19,7 +33,7 @@ const Header = () => {
             data.map(d => {
               return(`
                 <li class="navList-item">
-                <a href="#" class="navList-link">${d.li}</a>
+                <a href="#${d.link}" class="navList-link">${d.li}</a>
                 </li>
               `)
             }).join('')

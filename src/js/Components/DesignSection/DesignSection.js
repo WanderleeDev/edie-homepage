@@ -30,7 +30,7 @@ const data = [
 
 const DesingSection = () => {
   const tempContainer = `
-  <section class="designSection">
+  <section id="ourWorks" class="designSection">
     <h2 class="designSection-title">
       Good design means good business
     </h2>

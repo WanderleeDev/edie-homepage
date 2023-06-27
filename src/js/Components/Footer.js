@@ -9,23 +9,23 @@ import '../../scss/components/footer.scss';
 
 const listData = [
   {
-    link: "",
+    link: "home",
     text: 'Home'
   },
   {
-    link: "",
+    link: "services",
     text: 'Services'
   },
   {
-    link: "",
+    link: "ourWorks",
     text: 'Our Works'
   },
   {
-    link: "",
+    link: "clients",
     text: 'Clients'
   },
   {
-    link: "",
+    link: "contact",
     text: 'Contact'
   }
 ];
@@ -44,7 +44,7 @@ const socialIconData = [
 
 const Footer = () => {
   const tempContainer = `
-  <footer class="footer">
+  <footer id="contact" class="footer">
     <ul class="list">
       ${
         listData.map((list) => {

@@ -22,6 +22,10 @@
     gap: 1.5rem;
     @media screen and (min-width: 40rem) {
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(8, 6rem);
+    }
+
+    @media screen and (min-width: 68rem) {
       grid-template-rows: repeat(8, 9rem);
     }
   }
@@ -32,6 +36,9 @@
     gap: .5rem;
     color: #2D9CDB;
     cursor:pointer;
+    @media screen and (min-width: 40rem) {
+      justify-self: end;
+    }
   }
 
   &-link{
